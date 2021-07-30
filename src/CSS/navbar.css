@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin: 30px;
+    padding: 30px;
+    position: sticky;
+    background-color: grey;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 10px;
+}
+.navbar a:hover {
+    color: rgb(139, 139, 139);
+    transition: all 2s ease-in;
+}
+
